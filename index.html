@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Szamraj</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="background fonts">
+    <header class="header">
+        <h1 class="header__title">Paulina Szamraj</h1>
+        <img width="200" height="300" src="https://i.postimg.cc/Pq9YBKd6/img-20230302-134436.jpg" alt="Paulina">
+        <p>
+            <button class="header__button js-button">Włącz <span class="themeName">ciemny</span> motyw</button>
+        </p>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#slowem-wstepu">Słowem wstępu</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#czas-wolny">Czas wolny</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#najlepsze-albumy">Najlepsze albumy muzyczne</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="slowem-wstepu">
+            <h2 class="section__header">Słowem wstępu</h2>
+            <p>Weekendowo jestem <span class="section__important">studentką trzeciego roku</span> studiów licencjackich
+                na
+                kierunku
+                Finanse
+                i Rachunkowość, w tygodniu zaś pracuję na pełen etat.<br>Niestety <em>księgowość nie jest</em> tym co
+                chciałabym
+                robić przez całe życie, tak właśnie znalazłam się w gronie studentów YouCode.</p>
+        </section>
+        <section id="czas-wolny">
+            <h2 class="section__header">A co po pracy?</h2>
+            <div class="section__freetime">
+                <p>W wolnych chwilach lubię się zrelaksować przy dobrym serialu lub książce, ale nie tylko. Uwielbiam
+                    słuchać
+                    muzyki, a także rysować. Za czasów szkolnych marzyłam o zostaniu grafikiem komputerowym, jednak
+                    pozostało to
+                    tylko marzeniem.</p>
+            </div>
+        </section>
+        <section id="zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p><b>Seriale:</b> Supernatural, Game of Thrones, Big Little Lies, Sharp Objects<br><b>Książki:</b>
+                <strong>saga
+                    Harry Potter (J.K.Rowling)</strong>, Carrie (Stephen King), Szeptacz (Alex North), Lalka (Bolesław
+                Prus)<br><b>Muzyka:</b> Five Finger Death Punch, <strong>Children Of Bodom</strong>, Motionless In
+                White,
+                Disturbed<br><b>Rysunek:</b> kredki, ołówek, digital art
+            </p>
+        </section>
+        <section class="section__tableContainer" id="najlepsze-albumy">
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Najlepsze albumy muzyczne</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="col">Tytuł</th>
+                        <th class="table__cell table__header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__header" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">Follow the Reaper</th>
+                        <td class="table__cell" rowspan="2">Children of Bodom</td>
+                        <td class="table__cell">2000</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">Skeletons in the Closet</th>
+                        <td class="table__cell">2009</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">Got Your Six</th>
+                        <td class="table__cell">Five Finger Death Punch</td>
+                        <td class="table__cell">2015</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">Time</th>
+                        <td class="table__cell">Mercyful Fate</td>
+                        <td class="table__cell">1994</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">War Eternal</th>
+                        <td class="table__cell">Arch Enemy</td>
+                        <td class="table__cell">2014</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">Infestissumam</th>
+                        <td class="table__cell">Ghost</td>
+                        <td class="table__cell">2013</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p><i>"Bez względu na to ile popełnisz błędów, albo jak wolno idą postępy, i tak jesteś przed
+                tymi, którzy nie próbują wcale!"</i></p>
+    </footer>
+
+</body>
+
+</html>
