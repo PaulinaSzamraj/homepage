@@ -22,25 +22,11 @@ html {
     cursor: pointer;
 }
 
-
 .background {
     background-color: #d9ccff;
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
-}
-
-.section__header {
-    color: #d9ccff;
-    background-color: #3f053f;
-}
-
-.section__important {
-    color: #b300b3;
-}
-
-.footer {
-    text-shadow: 1px 2px 5px #e70d9b;
 }
 
 .darkBackground {
@@ -49,65 +35,6 @@ html {
     max-width: 1000px;
     margin: 0 auto;
     color: #d9ccff;
-}
-
-.table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.table__cell {
-    border: 1px solid #000000;
-    padding: 15px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.table__header {
-    background-color: #3f053f;
-    color: #d9ccff;
-    font-weight: normal;
-}
-
-.table__row:hover {
-    background-color: #a368e3;
-}
-
-.table__caption {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.container {
-    overflow-x: auto;
-}
-
-.navigation {
-    background-color: #d9ccff86;
-}
-
-.navigation__list {
-    padding: 0;
-}
-
-.navigation__listItem {
-    margin: 10px 0;
-    list-style: none;
-}
-
-.navigation__link {
-    text-decoration: none;
-    color: #4b034c;
-}
-
-.navigation__link:hover {
-    color: #e70d9b;
-    border-bottom: 1px solid;
-    outline: none;
-}
-
-.navigation__link:active {
-    color: #0e2094;
 }
 
 .fonts {

@@ -1,0 +1,27 @@
+.navigation {
+    background-color: #d9ccff86;
+}
+
+.navigation__list {
+    padding: 0;
+}
+
+.navigation__listItem {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #4b034c;
+}
+
+.navigation__link:hover {
+    color: #e70d9b;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: #0e2094;
+}
